@@ -154,7 +154,7 @@ h1::before {
   color: var(--clr-pseudoElemHover);
 }
 
-.btn-randomm {
+.btn-random {
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -167,7 +167,7 @@ h1::before {
   transform: translateX(-50%);
 }
 
-.btn-randomm:hover {
+.btn-random:hover {
   background-color: var(--clr-pseudoElemHover);
   color: var(--clr-headings);
 }
