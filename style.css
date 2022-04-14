@@ -13,7 +13,9 @@
   --clr-headings: #102a42;
   --clt-text: #617d98;
   --clr-btn-bgc: #ebf7ff;
+  --clr-btn-bgc-2: #abc9dd;
   --clr-pseudoElem: #49a6e9;
+  --clr-pseudoElemHover: #49a6e9;
 }
 
 body {
@@ -111,23 +113,20 @@ h1 {
 
 .btn {
   color: var(--clr-primary);
-}
-
-.btn-left {
-  margin: 0 1rem;
-  font-size: 4rem;
-  font-weight: 300;
-  background-color: transparent;
-  border: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 
-.btn-right {
+.btn-nav {
   margin: 0 1rem;
   font-size: 4rem;
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  color: var(--clr-btn-bgc-2);
+}
+
+.btn-nav:hover {
+  color: var(--clr-pseudoElemHover);
 }
 
 .btn-randomm {
@@ -137,4 +136,9 @@ h1 {
   border-radius: 1rem;
   border-color: var(--clr-primary);
   background-color: var(--clr-btn-bgc);
+}
+
+.btn-randomm:hover {
+  background-color: var(--clr-pseudoElemHover);
+  color: var(--clr-headings);
 }
